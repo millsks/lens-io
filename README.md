@@ -89,8 +89,8 @@ Planned steps (subject to change):
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/millsks/project-lens.git
-   cd project-lens
+   git clone https://github.com/millsks/lens-io.git
+   cd lens-io
    ```
 
 2. Set up a virtual environment / dependencies.
