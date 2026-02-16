@@ -1,0 +1,24 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+# The last matching pattern in the file has the most precedence.
+
+# Global rule:
+# The default owners for the entire repository.
+*       @millsks
+
+# # Docs directory:
+# # All files in the /docs directory are owned by the docs team.
+# /docs/* @our-org/docs-team
+ 
+# # Specific file type:
+# # All files ending in .js throughout the repository are owned by the JS team.
+# *.js    @our-org/frontend-team
+
+# # Specific directory with an override:
+# # The 'backend' user owns everything in the backend directory.
+# /backend/** @backend-user
+
+# # Specific file override:
+# # Even though the above rule matches, this specific file is owned by the lead developer
+# # because it is the last matching pattern in the file.
+# /backend/src/lead-file.go @lead-developer
