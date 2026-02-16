@@ -56,4 +56,4 @@ jobs:
 
     - name: Type check with mypy
       run: |
-        pixi run -e lint type-check
+        pixi run -e lint typecheck
