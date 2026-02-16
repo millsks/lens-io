@@ -264,7 +264,7 @@ Example: `feat(api): add lineage explanation endpoint`
 ```text
 lens-io/
 ├── backend/
-│   ├── lens/              # Unified Python package
+│   ├── lens-io/           # Unified Python package
 │   │   ├── pyproject.toml # Package config with hatch-vcs (root = "../..")
 │   │   ├── src/lens/      # Python module
 │   │   │   ├── __init__.py
