@@ -80,8 +80,8 @@ LENS is designed around three main layers:
 
 ```bash
 # Clone the repository
-git clone https://github.com/millsks/project-lens.git
-cd project-lens
+git clone https://github.com/millsks/lens-io.git
+cd lens-io
 
 # Install all dependencies (creates .pixi environment)
 pixi install
@@ -262,9 +262,9 @@ Example: `feat(api): add lineage explanation endpoint`
 ## Project Structure
 
 ```text
-project-lens/
+lens-io/
 ├── backend/
-│   ├── lens/              # Unified Python package
+│   ├── lens-io/           # Unified Python package
 │   │   ├── pyproject.toml # Package config with hatch-vcs (root = "../..")
 │   │   ├── src/lens/      # Python module
 │   │   │   ├── __init__.py
